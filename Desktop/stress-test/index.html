@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress-test">
+        <div id="question1" class="form-group">
+          <p>In the past year, I have felt these warning signs of stress:</p>
+          <input type="checkbox" name="warning" value="sleep"> Issues with sleep.<br>
+          <input type="checkbox" name="warning" value="overwhelmed">Feelings of being overwhelmeed.<br>
+          <input type="checkbox" name="warning" value="headache">frequent headaches.<br>
+          <input type="checkbox" name="warning" value="appetite">Loss of appetite.<br>
+          <input type="checkbox" name="warning" value="fatigue">feeling fatigued.<br>
+        </div>
+        <div id="question2" class="form-group">coping
+          <p>In the past year, I have felt the following symptoms related to stress:</p>
+          <input type="checkbox" name="symptoms" value="blood"> High Blood Pressure.<br>
+          <input type="checkbox" name="symptoms" value="anxiety">Feelings of anxiety.<br>
+          <input type="checkbox" name="symptoms" value="anger">Feelings of unexplained anger.<br>
+          <input type="checkbox" name="symptoms" value="hives">Breakout of hives.<br>
+          <input type="checkbox" name="symptoms" value="depression">feelings of depression.<br>
+        </div>
+        <div id="question3" class="form-group">
+          <p>What are some coping methods you would consider using:</p>
+          <input type="checkbox" name="coping" value="meditate">Meditate.<br>
+          <input type="checkbox" name="coping" value="yoga">Go to a yoga class.<br>
+          <input type="checkbox" name="coping" value="pet">Pet an animal.<br>
+          <input type="checkbox" name="coping" value="exercise">Go to the gym.<br>
+          <input type="checkbox" name="coping" value="art">Express yourself in an artistic manner.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="not-stressed">
+        <p><b>You seem to not be too stressed out! Congratulations!</b></p>
+      </span>
+      <span id="handle">
+        <p><b>You seem to handle stress well</b></p>
+      <span id="very-stressed">
+        <p><b>You seem to have a lot of stress and may need to learn some more methods in coping with your stree <a href="https://www.cdc.gov/violenceprevention/pub/coping_with_stress_tips.html">Click here for help!</a></p>
+      </span>
+    </div>
+  </body>
+</html>
